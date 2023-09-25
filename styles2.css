@@ -1,0 +1,42 @@
+/* Estilos para el botón */
+.btn {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    max-width: 80%; /* Ajusta el ancho máximo según tus necesidades */
+    overflow: auto; /* Permite desplazamiento si el contenido es largo */
+}
+
+/* Estilos para el fondo gris intermitente */
+.modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+/* Estilos para el contenido del modal */
+.modal-content {
+    /* Agrega estilos para el contenido aquí, por ejemplo: */
+    margin-bottom: 20px; /* Espacio entre el contenido y el borde del modal */
+
+}

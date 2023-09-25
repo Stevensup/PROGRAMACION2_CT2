@@ -8,7 +8,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="/images/linkedin.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
   <script src="modo.js"></script>
+  <script src="script.js"></script>
 
   <title>LinkedIn Arbolitos</title>
 </head>
@@ -148,40 +151,114 @@
         <div class="post__header">
           <i class="material-icons sidebar__topAvatar"> account_circle </i>
           <div class="post__info">
-            <h2>Santiago Melo Robayo</h2>
-            <p>Developer-Tester | PHP-Laravel | HTML | CSS | JavaScript | MySQL | GitHub |
-              Angular | Scrum | Selenium | Postman | Oracle | IIS</p>
+            <h2>Red Social Persons Developers</h2>
+            <p>Todos los derechos reservados</p>
           </div>
         </div>
 
         <div class="post__body">
-          <p>Professional with excellent organizational skills and extensive professional experience.
-            I am characterized by being a hardworking individual and providing good customer service,
-            including resolving potential issues. Seeking a new job opportunity to further develop
-            my career.</p>
+          <p>Aqui encontraras profesionales en distintas tecnologias, contacta con alguno de ellos para saber mas informacion acerca de su trabajo o necesidades, te recordamos que puedes comentar este post</p>
         </div>
 
         <div class="feed__inputOptions">
           <div class="inputOption">
-            <i style="color: rgb(0, 126, 184)" class="material-icons"> thumb_up </i>
+            <i class="material-icons"> thumb_up </i>
             <h4>Like</h4>
           </div>
           <div class="inputOption">
-            <i style="color: rgb(140, 142, 77)" class="material-icons"> comment </i>
+            <i class="material-icons"> comment </i>
             <h4>Comment</h4>
           </div>
           <div class="inputOption">
-            <i style="color: rgb(147, 192, 107)" class="material-icons"> share </i>
+            <i class="material-icons"> share </i>
             <h4>Share</h4>
           </div>
           <div class="inputOption">
-            <i style="color: rgb(24, 38, 200)" class="material-icons"> send </i>
+            <i class="material-icons"> send </i>
             <h4>Send</h4>
           </div>
         </div>
       </div>
       <!-- Post Ends -->
-      palabra
+      <div class="container">
+        <div class="card">
+          <img src="https://media.licdn.com/dms/image/C4E03AQG1Cm-ZuQW2UQ/profile-displayphoto-shrink_400_400/0/1648089662840?e=1701302400&v=beta&t=RlWe2N1FMHV9iA5jQTKLAVLaV1P-h728eFDmfcNcHQ8" alt="Person" class="card__image">
+          <p class="card__name">Santiago Melo Robayo</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+              156 Post
+            </div>
+      
+            <div class="grid-child-followers">
+              1012 Likes
+            </div>
+      
+          </div>
+          <p>Backend Developer</p>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-codepen"></i></a></li>
+          </ul>
+          <button class="btn draw-border">Sigueme</button>
+          <button class="btn draw-border" onclick="openModal()">Contactame</button>
+          <div id="myModal" class="modal">
+            <div id="modalBackdrop" class="modal-backdrop"></div>
+            <div id="modalContent" class="modal-content"></div>
+        </div>
+        </div>
+        
+        <div class="card">
+          <img src="https://media.licdn.com/dms/image/D5603AQGkh3LEgpUN7Q/profile-displayphoto-shrink_400_400/0/1690241440669?e=1701302400&v=beta&t=bm49NJTwFo4I-fzjyO1PcWkvRKUEh_zZFIF5TUjOa90" alt="Person" class="card__image">
+          <p class="card__name">Steven Useche Palomino</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+              305 Post
+            </div>
+      
+            <div class="grid-child-followers">
+              2643 Likes
+            </div>
+      
+          </div>
+          <p>Front Developer</p>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-codepen"></i></a></li>
+          </ul>
+          <button class="btn draw-border">Sigueme</button>
+          <button class="btn draw-border" onclick="openModal()">Contactame</button>
+        </div>
+        <div class="card">
+          <img src="https://media.licdn.com/dms/image/D5603AQFko7-3tdwi0g/profile-displayphoto-shrink_800_800/0/1695211578294?e=2147483647&v=beta&t=vH5Iuaf2ZCAJzzlMU1Y-wKgX2pQ0zpcT2XDikQoW_20" alt="Person" class="card__image">
+          <p class="card__name">Juan David Velasquez</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+              902 Post
+            </div>
+      
+            <div class="grid-child-followers">
+              1300 Likes
+            </div>
+      
+          </div>
+          <p>Full Stack Developer</p>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-codepen"></i></a></li>
+          </ul>
+          <button class="btn draw-border">Sigueme</button>
+          <button class="btn draw-border" onclick="openModal()">Contactame</button>
+        </div>
+      </div>
     </div>
     <!-- Feed Ends -->
 
@@ -220,7 +297,18 @@
           <p>Top news - 4500 readers</p>
         </div>
       </div>
+      <div class="widgets__article">
+        <div class="widgets__articleLeft">
+          <i class="material-icons"> fiber_manual_record </i>
+        </div>
+        <div class="widgets__articleRight">
+          <h4>Freelancer</h4>
+          <p>Top news - 4500 readers</p>
+        </div>
+      </div>
     </div>
+    </div>
+    
 
     <!-- Widgets Ends -->
   </div>

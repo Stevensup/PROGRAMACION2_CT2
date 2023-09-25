@@ -1,4 +1,4 @@
-// Función para alternar entre el modo claro y oscuro
+// modo.js (Modo oscuro / claro)
 function toggleMode() {
   const body = document.body;
 
@@ -12,7 +12,6 @@ function toggleMode() {
   }
 }
 
-// Agregar un evento de clic al botón para llamar a la función toggleMode
 document.addEventListener("DOMContentLoaded", function() {
   const toggleModeButton = document.getElementById('toggle-mode-button');
   toggleModeButton.addEventListener('click', toggleMode);
