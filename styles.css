@@ -420,15 +420,17 @@ h2 , p , h4 , i {
 }
 
 .card {
-  background-color: rgb(255, 255, 255); /* Cambia el valor alpha (último número) para ajustar la transparencia */
+  background-color: rgb(255, 255, 255); 
   height: 37rem;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Agrega un sombreado */
+  border: 1px solid #ccc; /* Agrega un borde gris delgado */
   color: rgb(0, 0, 0);
 }
+
 
 
 .card__name {
