@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <!-- Agrega estos enlaces a SweetAlert en la sección <head> de tu archivo HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.6/dist/sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.6/dist/sweetalert2.all.min.js"></script>        
     <title>Floating Contact Form CSS</title>
     <link rel="stylesheet" media="all" href="styles2.css" />
 </head>
@@ -28,20 +32,16 @@
 
             <button class="modal-close-button" onclick="closeModal()">Cerrar</button>
             <br>
-            <form class="form">
-                <input type="text" class="name entry " placeholder="Your Name" />
-
-                <input type="text" class="email entry" placeholder="Email" />
-
-                <textarea class="message entry" placeholder="Message"></textarea>
-
-                <button class="submit entry" onclick="thanks()">Submit</button>
+            <form class="form" id="contactForm">
+                <input type="text" class="name entry" id="name" placeholder="Your Name" />
+                <input type="text" class="email entry" id="email" placeholder="Email" />
+                <textarea class="message entry" id="message" placeholder="Message"></textarea>
+                <button type="button" class="submit entry" onclick="submitForm()">Submit</button>
             </form>
+
 
             <div class="shadow"></div>
         </div>
-
-        <script src="script.js"></script>
     </body>
 
     </html>
