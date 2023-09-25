@@ -59,8 +59,9 @@ body {
   align-items: center;
   border-radius: 5px;
   height: 22px;
-  color: aliceblue;
+  color: #ffffff;
   border: 1px solid #000; /* Agregar un borde de 1 píxel de ancho en color negro */
+  background-color: #969696;
 }
 
 
