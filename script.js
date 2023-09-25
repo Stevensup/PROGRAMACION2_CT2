@@ -1,8 +1,7 @@
 // Mueve la definición de la función openModal() fuera del evento DOMContentLoaded
 function openModal() {
     const modal = document.getElementById('myModal');
-    const modalBackdrop = document.getElementById('modalBackdrop');
-    const modalContent = document.getElementById('modalContent');
+    const modalContent = modal.querySelector('.modal-content');
 
     // Cargar el contenido del formulario desde otro HTML
     fetch('formulario.html')
@@ -13,6 +12,13 @@ function openModal() {
         });
 }
 
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Tu otro código JavaScript aquí
 });
+
+function closeModal() {
+    const modal = document.getElementById('myModal');
+    modal.style.display = 'none';
+}
